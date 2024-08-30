@@ -1,0 +1,105 @@
+body {
+    color: white;
+    background: black;
+    margin: 2px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+header {
+    border-bottom: solid 2px rgb(25, 128, 197);
+    padding: 20px;
+    font-size: 30px;
+    color:rgb(157, 206, 240);
+}
+
+.chamada {
+    background: rgb(1, 19, 32);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 240px;
+}
+
+.clipes-aleatorios{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.clipes{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.clipes-aleatorios img {
+opacity: 0.5;
+
+}
+.clipes-aleatorios img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(0, 255, 179);
+}
+
+.clipes h2 {
+color: rgb(157, 206, 240);
+}
+
+.chamada-2 {
+    background: rgb(32, 1, 1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto-2{
+    margin-right: 5%;
+}
+
+h3{
+    font-size: 40px;
+}
+
+.chamada-3 {
+    background: rgb(8, 5, 41);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-4 {
+    background: rgb(5, 41, 13);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.chamada-5 {
+    background: rgb(46, 51, 4);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+
